@@ -1,0 +1,15 @@
+int test(int a)
+{
+a = a*2;
+   return a;
+}
+
+void main(void){
+    int i;
+    int a[2];
+    i = 1;
+    i = test(i);
+    i = i + 1;
+    a[0] = i *3;
+    return ;
+}

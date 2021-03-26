@@ -1,0 +1,16 @@
+int cac(int n)
+{
+	if(n > 1)
+		return cac(1);
+	else
+		return 1;
+}
+
+void main(void)
+{
+	int a;
+	int b;
+	a = 3;
+	b = cac(a);
+	return;
+}
